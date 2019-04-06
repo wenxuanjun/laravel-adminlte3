@@ -1,0 +1,34 @@
+{
+    "name": "wenxuanjun/adminlte3",
+    "description": "AdminLTE3 extension for laravel-admin",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension", "AdminLTE3"],
+    "homepage": "https://github.com/pigzzz123/adminlte3",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pigzzz123",
+            "email": "205270006@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdminNewDev\\Adminlte\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AdminNewDev\\Adminlte\\AdminlteServiceProvider"
+            ]
+
+        }
+    }
+}
