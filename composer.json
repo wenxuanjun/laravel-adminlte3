@@ -1,14 +1,14 @@
 {
-    "name": "wenxuanjun/adminlte3",
-    "description": "AdminLTE3 extension for laravel-admin",
+    "name": "wenxuanjun/laravel-adminlte3",
+    "description": "AdminLTE3 for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension", "AdminLTE3"],
-    "homepage": "https://github.com/pigzzz123/adminlte3",
+    "homepage": "https://github.com/wenxuanjun/laravel-adminlte3",
     "license": "MIT",
     "authors": [
         {
-            "name": "pigzzz123",
-            "email": "205270006@qq.com"
+            "name": "wenxuanjun",
+            "email": "wendster@163.com"
         }
     ],
     "require": {
