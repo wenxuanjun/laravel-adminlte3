@@ -14,14 +14,14 @@ laravel-admin >= 1.6.9
 ## 安装
 
 ```bash
-composer require wenxuanjun/adminlte3
+composer require wenxuanjun/laravel-adminlte3
 php artisan vendor:publish --tag=adminlte
 ```
 
 ## 更新
 
 ```bash
-composer update wenxuanjun/adminlte3
+composer update wenxuanjun/laravel-adminlte3
 php artisan vendor:publish --tag=adminlte --force
 ```
 
