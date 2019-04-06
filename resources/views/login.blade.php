@@ -7,8 +7,8 @@
     <title>{{config('admin.title')}} | {{ trans('admin.login') }}</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-    <link rel="stylesheet" href="{{ admin_asset("vendor/pigzzz123/adminlte3/plugins/font-awesome/css/font-awesome.min.css") }}">
-    <link rel="stylesheet" href="{{ admin_asset("vendor/pigzzz123/adminlte3/dist/css/AdminLTE.min.css") }}">
+    <link rel="stylesheet" href="{{ admin_asset("vendor/wenxuanjun/laravel-adminlte3/plugins/font-awesome/css/font-awesome.min.css") }}">
+    <link rel="stylesheet" href="{{ admin_asset("vendor/wenxuanjun/laravel-adminlte3/dist/css/AdminLTE.min.css") }}">
 </head>
 
 <body class="hold-transition login-page" @if(config('admin.login_background_image'))style="background: url({{config('admin.login_background_image')}}) no-repeat;background-size: cover;"@endif>
@@ -57,7 +57,7 @@
     </div>
 
     <script src="{{ admin_asset("vendor/laravel-admin/AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js")}}"></script>
-    <script src="{{ admin_asset("vendor/pigzzz123/adminlte3/plugins/bootstrap/js/bootstrap.bundle.min.js")}}"></script>
+    <script src="{{ admin_asset("vendor/wenxuanjun/laravel-adminlte3/plugins/bootstrap/js/bootstrap.bundle.min.js")}}"></script>
 </body>
 
 </html>

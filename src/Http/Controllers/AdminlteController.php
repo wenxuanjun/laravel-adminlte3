@@ -12,6 +12,6 @@ class AdminlteController extends Controller
         return $content
             ->header('Title')
             ->description('Description')
-            ->body(view('adminlte3::index'));
+            ->body(view('laravel-adminlte3::index'));
     }
 }

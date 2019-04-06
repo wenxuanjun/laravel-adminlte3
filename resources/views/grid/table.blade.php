@@ -5,13 +5,14 @@
         </div>
     @endif
 
-    @if ( $grid->allowTools() || $grid->allowExport() || $grid->allowCreation() )
+    @if ( $grid->showTools() || $grid->showExportBtn() || $grid->showCreateBtn() )
         <div class="card-header">
             <div class="float-right" style="margin-right: -10px;">
-                {!! $grid->renderExportButton() !!}
-                {!! $grid->renderCreateButton() !!}
+                {!! $grid->renderColumnSelector() !!}
+				{!! $grid->renderExportButton() !!}
+				{!! $grid->renderCreateButton() !!}
             </div>
-            @if ( $grid->allowTools() )
+            @if ( $grid->showTools() )
             <span>
                 {!! $grid->renderHeaderTools() !!}
             </span>
