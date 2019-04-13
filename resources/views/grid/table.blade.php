@@ -21,12 +21,14 @@
     @endif
 
     {!! $grid->renderFilter() !!}
+    
+    {!! $grid->renderHeader() !!}
 
     <div class="card-body table-responsive no-padding">
         <table class="table table-hover">
             <thead>
                 <tr>
-                    @foreach($grid->columns() as $column)
+                    @foreach($grid->visibleColumns() as $column)
                     <th>{{$column->getLabel()}}{!! $column->sorter() !!}</th>
                     @endforeach
                 </tr>
@@ -35,7 +37,7 @@
             <tbody>
                 @foreach($grid->rows() as $row)
                 <tr {!! $row->getRowAttributes() !!}>
-                    @foreach($grid->columnNames as $name)
+                    @foreach($grid->visibleColumnNames() as $name)
                     <td {!! $row->getColumnAttributes($name) !!}>
                         {!! $row->column($name) !!}
                     </td>
