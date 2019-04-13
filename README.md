@@ -8,8 +8,8 @@ laravel-admin >= 1.6.9
 
 ## 截图
 
-![](https://s2.ax1x.com/2019/04/13/ALW0fJ.png)
 ![](https://s2.ax1x.com/2019/04/13/ALWdkF.png)
+![](https://s2.ax1x.com/2019/04/13/ALW0fJ.png)
 ![](https://s2.ax1x.com/2019/04/13/ALWwY4.png)
 
 ## 安装
