@@ -1,6 +1,6 @@
-# AdminLTE3 extension for laravel-admin
+# AdminLTE3 for laravel-admin
 
-这是一个 `laravel-admin` 扩展，为 `laravel-admin` 应用 [AdminLTE3](https://github.com/almasaeed2010/AdminLTE/tree/v3.0.0-alpha.2) 主题。
+这是一个 `laravel-admin` 扩展，为 `laravel-admin` 应用 [AdminLTE3](https://github.com/ColorlibHQ/AdminLTE/tree/v3-dev) 主题。
 
 ## 依赖
 
@@ -8,8 +8,9 @@ laravel-admin >= 1.6.9
 
 ## 截图
 
-![screenshot1](https://user-images.githubusercontent.com/24596908/52550386-e4894080-2e12-11e9-8342-150195621925.png)
-![screenshot2](https://user-images.githubusercontent.com/24596908/52550528-6e390e00-2e13-11e9-889f-86173aa74c9a.png)
+![](https://s2.ax1x.com/2019/04/13/ALW0fJ.png)
+![](https://s2.ax1x.com/2019/04/13/ALWdkF.png)
+![](https://s2.ax1x.com/2019/04/13/ALWwY4.png)
 
 ## 安装
 
