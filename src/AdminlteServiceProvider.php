@@ -55,7 +55,7 @@ class AdminlteServiceProvider extends ServiceProvider
                 'vendor/laravel-admin/sweetalert2/dist/sweetalert2.min.js',
                 'vendor/laravel-admin/bootstrap3-editable/js/bootstrap-editable.min.js',
                 'vendor/wenxuanjun/laravel-adminlte3/dist/js/app.js',
-                'vendor/wenxuanjun/laravel-adminlte3/dist/js/demo.js',
+                'vendor/wenxuanjun/laravel-adminlte3/dist/js/theme.min.js',
             ]);
         });
     }
