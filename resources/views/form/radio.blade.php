@@ -9,7 +9,7 @@
         @foreach($options as $option => $label)
             <div class="custom-control custom-radio {{ $inline ? 'custom-control-inline' : '' }}">
                 <input type="radio" name="{{$name}}" value="{{$option}}" id="{{ $name.'-'.$option }}" class="{{$class}} custom-control-input" {{ ($option==old($column,$value))||($value===null&&in_array($label,$checked))?'checked':'' }} {!! $attributes !!} />
-                <label class="custom-control-label" for="{{ $name.'-'.$option }}">{{ $label }}</label>
+                <label class="" for="{{ $name.'-'.$option }}">{{ $label }}</label>
             </div>
         @endforeach
 
