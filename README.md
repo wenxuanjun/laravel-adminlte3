@@ -73,14 +73,16 @@ php artisan vendor:publish --tag=adminlte --force
 **强制刷新**后查看效果
 
 ## 已知BUG
+
 - editable 样式错乱
+- modal 样式错乱
 
 ## 鸣谢
 
 * [pigzzz123/adminlte3](https://github.com/pigzzz123/adminlte3)
+
 * [almasaeed2010/AdminLTE](https://github.com/almasaeed2010/AdminLTE)
 
-License
-------------
-Licensed under [The MIT License (MIT)](LICENSE).
+## License
 
+Licensed under [The MIT License (MIT)](LICENSE).
