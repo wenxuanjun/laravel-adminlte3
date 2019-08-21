@@ -1,4 +1,4 @@
-<nav class="main-header navbar navbar-expand fixed-top navbar-light border-bottom {{ config('admin.extensions.adminlte.theme.navbar') ?: 'bg-white' }}">
+<nav class="main-header navbar navbar-expand fixed-top navbar-light border-bottom navbar-white">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
         <li class="nav-item">
