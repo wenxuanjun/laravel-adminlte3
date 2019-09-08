@@ -7,13 +7,15 @@ assignees: ''
 
 ---
 
-**Improtant**
-Please give us your particular error code and never forget to use Markdown!
+## Improtant
+**Please give us your particular error code and never forget to use Markdown!**
+
+## What we need
 
 #### Describe the bug
 A clear and concise description of what the bug is.
 
-#### Your Mashine
+#### Your mashine
 Tell us what OS and which software version (e.g. laravel, laravel-admin and laravel-adminlte3) you are using. 
 
 #### Screenshots
