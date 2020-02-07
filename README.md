@@ -1,7 +1,3 @@
-# 该项目已停止维护
-
-由于个人能力有限，且高中学业繁忙，`laravel-admin`更新频繁，故无精力维护此项目，敬请谅解。
-
 # AdminLTE3 for laravel-admin
 
 这是一个 `laravel-admin` 扩展，为 `laravel-admin` 应用 [AdminLTE3](https://github.com/ColorlibHQ/AdminLTE/tree/v3-dev) 主题。
